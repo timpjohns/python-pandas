@@ -101,7 +101,7 @@ def MergeTables(outtable):
     
 
 def main():
-    '''Run zonal stats and combinetables Function
+    '''Run zonal stats, dbf to csv function, and merge tables function
     '''
     #name admin poly 
     adminpoly = "g2015_2014_0_minus_antarctica.shp"
