@@ -8,8 +8,9 @@ using pandas.
 
 Errors and Issues of Note:
 For some reason python.exe shuts down after importing about 700k rows into 
-sqlite database. I made the script where the csv is broken up into four sections
-and 4 different sqlite tables are created, which are then merged within sql. 
+sqlite database. Perhaps due to using Python 32 bit version. 
+I made the script for just 1/4 of the table, containing 700k rows, which 
+can be run for the other tables as inputs later. 
 '''
 
 import pandas as pd 
